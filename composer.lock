@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3c2797033324050b433ebf39caba0821",
+    "content-hash": "10e4470687b5460dfba296a9aeec7356",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -329,6 +329,40 @@
                 "validation"
             ],
             "time": "2019-05-28T15:27:37+00:00"
+        },
+        {
+            "name": "boolfly/module-momo-wallet",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/boolfly/momo-wallet.git",
+                "reference": "d199de8849bb436c1441120dd9c714b9bfc2ea3b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/boolfly/momo-wallet/zipball/d199de8849bb436c1441120dd9c714b9bfc2ea3b",
+                "reference": "d199de8849bb436c1441120dd9c714b9bfc2ea3b",
+                "shasum": ""
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0||~7.3.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Boolfly\\MomoWallet\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "Momo Wallet Payment Gateway",
+            "time": "2020-04-22T07:50:42+00:00"
         },
         {
             "name": "braintree/braintree_php",
@@ -2180,6 +2214,7 @@
                 "console",
                 "laminas"
             ],
+            "abandoned": "laminas/laminas-cli",
             "time": "2019-12-31T16:31:45+00:00"
         },
         {
@@ -4319,11 +4354,6 @@
         {
             "name": "magento/composer",
             "version": "1.5.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magento/composer.git",
-                "reference": "b2dcb2194629bc2eb03fd81cb9f4586ffe4b65b0"
-            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/magento/composer/zipball/b2dcb2194629bc2eb03fd81cb9f4586ffe4b65b0",
@@ -15756,6 +15786,7 @@
                 "symfony",
                 "words"
             ],
+            "abandoned": "EnglishInflector from the String component",
             "time": "2020-03-27T16:56:45+00:00"
         },
         {

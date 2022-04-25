@@ -17,6 +17,7 @@
         }
     },
     "require": {
+        "boolfly/module-momo-wallet": "^1.0",
         "magento/module-bundle-sample-data": "100.3.*",
         "magento/module-catalog-rule-sample-data": "100.3.*",
         "magento/module-catalog-sample-data": "100.3.*",
