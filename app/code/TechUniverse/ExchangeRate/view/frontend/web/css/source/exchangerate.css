@@ -1,59 +1,95 @@
-.container-exchange-rate{
-    width: 50%;
+.container-exchange-rate {
+    width: 49%;
     position: relative;
 }
 
-.container-exchange-rate .title{
+.container-exchange-rate .title {
     background-color: #333333;
     color: white;
     border-bottom: white;
-    font-size: 2rem ;
+    font-size: 2rem;
     text-align: center;
+    padding: 5px 0;
+    color: #e2af2e;
+    font-family: 'Exo2-Bold';
 }
 
-.fixed_header{
+.fixed_header {
     width: 100%;
     table-layout: fixed;
     border-collapse: collapse;
 }
 
-.fixed_header tbody{
-    display:block;
+.fixed_header tbody {
+    display: block;
     width: 100%;
     overflow: auto;
-    height: 200px;
+    height: 300px;
+    border-bottom: 1px solid #e2af2e;
 }
 
 .fixed_header thead tr {
     display: block;
+    color: #e2af2e;
+    font-family: 'Exo2-Bold';
+    padding-right: 10px;
+}
+
+.fixed_header thead th {
+    vertical-align: middle;
+    text-align: center;
 }
 
 .fixed_header thead {
     background: black;
-    color:#fff;
+    color: #fff;
 }
 
-.fixed_header th, .fixed_header td {
-    border-left: 1px solid white;
+.fixed_header tbody tr {
+    height: 50px;
+}
+
+.fixed_header tbody tr:nth-child(odd) {
+    background-color: #fbf0d6;
+}
+
+.fixed_header th,
+.fixed_header td {
+    border-left: 1px solid #e2af2e;
     padding: 5px;
     text-align: left;
-    width: 200px;
+    width: 20%;
+    text-align: center;
+    vertical-align: middle;
 }
 
-.container-exchange-rate .fixed_header tbody
-    ::-webkit-scrollbar {
-        width: 10px;
-    }
-        
-    ::-webkit-scrollbar-track {
-        background: #f1f1f1; 
-    }
-    
+.container-exchange-rate .fixed_header tbody ::-webkit-scrollbar {
+    width: 10px;
+}
 
-    ::-webkit-scrollbar-thumb {
-        background: #888; 
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+@media(max-width: 992px) {
+    .container-exchange-rate {
+        width: 100%;
     }
-    
-    ::-webkit-scrollbar-thumb:hover {
-        background: #555; 
+
+}
+
+@media(max-width: 576px) {
+    .fixed_header tbody {
+        font-size: 12px;
     }
+
+}
