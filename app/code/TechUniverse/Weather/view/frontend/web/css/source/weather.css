@@ -7,6 +7,7 @@
     margin-right: auto;
     position: relative;
     margin-bottom: 5px;
+    border-radius: 5px;
 }
 
 .container-weather tr td {
@@ -14,8 +15,9 @@
 }
 
 .container-weather div {
-    background-color: black;
+    background-color: #607d8b;
     opacity: 0.75;
+    color: white;
 }
 
 .container-weather .weather-info {
