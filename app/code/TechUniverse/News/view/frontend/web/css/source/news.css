@@ -89,7 +89,7 @@ div ::-webkit-scrollbar {
 
 /* Extra */
 
-.blocks-promo {
+/* .blocks-promo {
     display: none !important;
 }
 
@@ -158,7 +158,7 @@ a.level-top {
 
 .navigation .level0 .submenu a:hover {
     background-color: #f1bc31 !important;
-}
+} */
 
 .top-container {
     display: flex;
