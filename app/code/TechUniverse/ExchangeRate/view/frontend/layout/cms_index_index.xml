@@ -3,7 +3,7 @@
     <referenceContainer name="top.container">
         <block class="TechUniverse\ExchangeRate\Block\Index"
                 name="exchangerate.view"
-                after="weather.view"
+                after="banner.view"
                 template="TechUniverse_ExchangeRate::index.phtml"
         />
     </referenceContainer>

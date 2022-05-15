@@ -8,27 +8,34 @@
     position: relative;
     margin-bottom: 5px;
 }
-.container-weather tr td{
+
+.container-weather tr td {
     vertical-align: middle;
 }
-.container-weather div{
+
+.container-weather div {
     background-color: black;
     opacity: 0.75;
 }
-.container-weather .weather-info{
+
+.container-weather .weather-info {
     width: 25%;
 }
-.container-weather .weather-info .title{
+
+.container-weather .weather-info .title {
     font-size: 2rem;
     padding-left: 5%;
 }
-.container-weather .weather-info .location-info{
+
+.container-weather .weather-info .location-info {
     padding-left: 5%;
 }
-.container-weather .weather-details div{
+
+.container-weather .weather-details div {
     padding-left: 5%;
     text-align: left;
 }
-.container-weather .weather-now div{
+
+.container-weather .weather-now div {
     padding-left: 5%;
 }
